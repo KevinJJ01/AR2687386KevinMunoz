@@ -1,9 +1,13 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+
     // Add the Google services Gradle plugin
     id("com.google.gms.google-services")
 
+    //add hilt to dependency injection
+    kotlin("kapt")
+    id("com.google.dagger.hilt.android")
 }
 
 android {
@@ -33,11 +37,11 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
     buildFeatures {
         compose = true
@@ -62,6 +66,11 @@ dependencies {
 
 
     //add hilt dependencies
+    implementation("com.google.dagger:hilt-android:2.48")
+    kapt("com.google.dagger:hilt-android-compiler:2.48")
+    implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
+    kapt("androidx.hilt:hilt-compiler:1.0.0")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.6.2")
