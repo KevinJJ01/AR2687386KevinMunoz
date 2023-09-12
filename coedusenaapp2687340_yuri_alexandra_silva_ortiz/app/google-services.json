@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "172125659739",
+    "project_id": "proyectos-nativo",
+    "storage_bucket": "proyectos-nativo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172125659739:android:6a435abb8c2d7a31f3557e",
+        "android_client_info": {
+          "package_name": "co.edu.sena.app2687340_johan_yesid_munoz_castaneda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172125659739-pk3mlo25gqq3909i9n9b5hjjc947ttao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJVzTa7wc7Ep45vWcHTW4fn3yOr9j2_yI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172125659739-pk3mlo25gqq3909i9n9b5hjjc947ttao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172125659739:android:3b0b5810a144f27cf3557e",
+        "android_client_info": {
+          "package_name": "co.edu.sena.app2687340_yuri_alexandra_silva_ortiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172125659739-pk3mlo25gqq3909i9n9b5hjjc947ttao.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJVzTa7wc7Ep45vWcHTW4fn3yOr9j2_yI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172125659739-pk3mlo25gqq3909i9n9b5hjjc947ttao.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
