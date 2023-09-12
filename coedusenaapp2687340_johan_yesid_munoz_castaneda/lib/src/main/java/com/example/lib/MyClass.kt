@@ -1,4 +1,5 @@
 package com.example.lib
 
-class MyClass {
+fun main(){
+    println("Kotlin desde consola")
 }

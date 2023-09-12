@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.coedusenaapp2687340_johan_yesid_munoz_castaneda"
+    namespace = "com.example.coedusenaapp2687340_yuri_alexandra_silva_ortiz"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.coedusenaapp2687340_johan_yesid_munoz_castaneda"
+        applicationId = "com.example.coedusenaapp2687340_yuri_alexandra_silva_ortiz"
         minSdk = 27
         targetSdk = 34
         versionCode = 1
@@ -51,6 +51,7 @@ android {
 }
 
 dependencies {
+
     implementation(platform("com.google.firebase:firebase-bom:32.2.2"))
 
     implementation("androidx.core:core-ktx:1.10.1")

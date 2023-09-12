@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "930516428051",
+    "project_id": "ar2687386kevinmunoz",
+    "storage_bucket": "ar2687386kevinmunoz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:930516428051:android:695b5b4319459f24a1e6e6",
+        "android_client_info": {
+          "package_name": "com.example.ar2687386kevinmunoz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrrm7UbndAWQ_ytYs9Dr6EThRQiJPELN8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

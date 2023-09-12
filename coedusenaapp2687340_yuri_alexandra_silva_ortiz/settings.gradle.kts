@@ -13,7 +13,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "co.edu.sena.app2687340_johan_yesid_munoz_castaneda"
+rootProject.name = "co.edu.sena.app2687340_yuri_alexandra_silva_ortiz"
 include(":app")
 include(":modulouno")
 include(":lib")
